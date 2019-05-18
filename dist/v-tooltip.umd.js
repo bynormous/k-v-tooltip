@@ -7027,6 +7027,7 @@
   var merge_1 = merge;
 
   function styleInject(css, ref) {
+    return; // don't inject
     if ( ref === void 0 ) ref = {};
     var insertAt = ref.insertAt;
 
